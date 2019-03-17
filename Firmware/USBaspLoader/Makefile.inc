@@ -37,6 +37,7 @@ DANGEROUS=0
 
 # PROGRAMMER contains AVRDUDE options to address your programmer
 # PROGRAMMER = -c pony-stk200
+# PROGRAMMER = -c usbasp -P usb -B 5
 PROGRAMMER = -c dragon_isp
 
 #  since USBaspLoader supports HAVE_BLB11_SOFTW_LOCKBIT...
